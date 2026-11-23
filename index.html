@@ -126,10 +126,10 @@ h1{margin:0;font-weight:500;font-size:clamp(30px,4.4vw,52px);line-height:1.06;le
 .tp{display:flex;flex-direction:column;gap:14px;align-items:center;padding:6px 4px 8px;border:0;border-radius:14px;background:none;color:var(--ink);text-align:center}
 .tp{position:relative;transition:background .2s,transform .2s}.th{transition:box-shadow .2s,transform .2s}
 .tp.on{background:linear-gradient(180deg,#b0896826,#b0896810);box-shadow:inset 0 0 0 1px #b089688c}
-.tp.on .th{box-shadow:0 0 0 3px #e3cdb3,0 0 0 8px #b0896855,0 16px 34px #000a;transform:translateY(-3px) scale(1.02)}
-.tp.on>b{background:var(--clay);color:#fff;border-radius:99px;padding:3px 14px;box-shadow:0 4px 12px #b0896855}
+.tp.on .th{box-shadow:0 0 0 3px #e3cdb3,0 0 0 6px #b0896855,0 16px 34px #000a;transform:none}
+.tp.on>b{background:var(--clay);color:#fff;box-shadow:0 4px 12px #b0896855}
 .tp.on>b:before{content:"✓";margin-right:7px;font-weight:700}
-.tp b{font-size:14px;font-weight:600}.tp small{font-size:11px;color:var(--muted);line-height:1.4}
+.tp b{font-size:14px;font-weight:600;padding:3px 14px;border-radius:99px}.tp small{font-size:11px;color:var(--muted);line-height:1.4}
 .tp:focus-visible{outline:2px solid #d8c0a4;outline-offset:2px}
 .th{position:relative;width:159px;height:225px;overflow:hidden;border-radius:6px;background:#fff;box-shadow:0 8px 18px #0007;pointer-events:none}
 .th .paper{position:absolute;left:0;top:0;transform-origin:0 0;transform:scale(.2);height:297mm;overflow:hidden}
